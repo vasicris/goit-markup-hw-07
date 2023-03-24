@@ -358,14 +358,57 @@ inner-div svg:hover {
     padding-right: 30px;
 }
 
-.head-background {
+/* .head-background {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+} */
+
+/* .section-one {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+} */
+
+/* .head-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 696px;
+    padding-bottom: 30px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-top: 200px;
+}  */
+
+
+
+.section-one {
+    /* font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 696px;
+    padding-bottom: 30px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-top: 200px; */
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
 }
 
-.head-title {
+.section-one-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -697,7 +740,7 @@ inner-div svg:hover {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
-    color: #212121;
+    
     /* padding-bottom: 50px; */
     /* display: flex; */
     /* justify-content: center; */
@@ -707,6 +750,7 @@ inner-div svg:hover {
 
 .section-four-title {
     padding-bottom: 50px;
+    color: #212121;
 }
 
 /* .our-team {
@@ -893,7 +937,7 @@ inner-div svg:hover {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 91px;
+    /* margin-top: 91px; */
 }
 
 .regular-customers-list {
@@ -918,7 +962,7 @@ inner-div svg:hover {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    margin: 50px 30px 94px 30px;
+    margin: 50px 15px 94px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
