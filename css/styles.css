@@ -399,26 +399,47 @@ inner-div svg:hover {
     align-items: center;
 }
 
-.our-description {
+/* .our-description {
+    display: flex;
+    gap: 30px;
+    padding-top: 94px;
+} */
+
+.grid {
     display: flex;
     gap: 30px;
     padding-top: 94px;
 }
 
-.our-every-description {
+/* .our-every-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.grid__items {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.our-description a {
+/* .our-description a {
     background-color: #F5F4FA;
     align-items: center;
     height: 120px;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    }
+} */
+
+.our-qualities a {
+    background-color: #F5F4FA;
+    align-items: center;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
 .section-portofolio {
     display: flex;
@@ -534,7 +555,17 @@ inner-div svg:hover {
     height: 294px;
 }
 
-.title {
+/* .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    padding-bottom: 4px;
+} */
+
+.our-qualities__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -641,9 +672,9 @@ inner-div svg:hover {
     padding-bottom: 10px;
 }
 
-.social-media-icons {
+/* .social-media-icons {
     display: flex;
-}
+} */
 
 .social-media-icons-list {
     display: flex;
@@ -678,7 +709,16 @@ inner-div svg:hover {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.description {
+/* .description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-bottom: 20px;
+} */
+
+.our-qualities__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
