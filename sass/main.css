@@ -1,0 +1,18 @@
+:root {
+  --color-green: green;
+}
+
+html {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+}
+
+.class {
+  color: yellow;
+}
+
+.class .element {
+  color: red;
+  padding: 22px;
+}/*# sourceMappingURL=main.css.map */
