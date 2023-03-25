@@ -739,48 +739,48 @@ inner-div svg:hover {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer {
+/* .footer {
     background-color: #2F303A;
     display: flex;
     flex-direction: column;
     padding: 60px 0px;
-}
+} */
 
-.footer-navigation {
+/* .footer-navigation {
     display: flex;
-}
+} */
 
-.left-footer {
+/* .footer-left {
     display: flex;
     flex-direction: column;
-}
+} */
 
-.bottom-webstudio{
+/* .bottom-webstudio{
     position: relative;
-}
+} */
 
-#studio2 {
+/* #studio2 {
     color: white;
-  }
+} */
 
-.adress-footer-list {
+/* .footer-adress-list {
     list-style: none;
     display: flex;
     flex-direction: column;
     padding-inline-start: 0px;
     padding-top: 28px;
-}
+} */
 
-.adress-footer-list :hover {
+/* .footer-adress-list :hover {
     color: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.footer-adress {
+/* .footer-adress {
     padding-bottom: 12px;
-}
+} */
 
-.WebStudio-info-footer {
+/* .footer-WebStudio-info {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -789,46 +789,46 @@ inner-div svg:hover {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-}
+} */
 
-.adress-link-footer {
+/* .footer-adress-link {
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
     font-style: normal;
-}
+} */
 
-.contact-link-footer {
+/* .footer-contact-link {
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
-    }
+} */
 
-.find-us-on {
+/* .find-us-on {
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 20px;
-}
+} */
 
-.social-media-icons-list-footer {
+/* .footer-social-media-icons-list {
     display: flex;
     justify-content: space-between;
     width: 206px;
-}
+} */
 
-.social-media-icons-list-footer a:hover {
+/* .footer-social-media-icons-list a:hover {
     color: white;
-}
+} */
 
-.icon-list-item-footer {
+/* .footer-icon-list-item {
     height: 44px;
     width: 44px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -837,16 +837,16 @@ inner-div svg:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-}
+} */
 
-.icon-list-item-footer > svg {
+/* .footer-icon-list-item > svg {
     color: white;
-}
+} */
 
-.icon-list-item-footer:hover {
+/* .footer-icon-list-item:hover {
     background-color: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 * {
     margin-block-start: auto;
@@ -854,14 +854,14 @@ inner-div svg:hover {
     padding-inline-start: 0px;
 }
 
-.right-footer {
+/* .footer-right {
     height: 80px;
     padding-left: 94px;
     display: flex;
     flex-direction: column;
     margin-block-start: 0px;
     width: 206px;
-}
+} */
 
 /* .page-link-a {
     position: relative;
@@ -881,11 +881,11 @@ inner-div svg:hover {
     left: 0px;
 }
 
-.footer-form-position {
+/* .footer-form-position {
     margin: 0px 0px 0px 93px;
-}
+} */
 
-.footer-form-position-title {
+/* .footer-form-position-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -893,13 +893,13 @@ inner-div svg:hover {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-}
+} */
 
-.footer-form {
+/* .footer-form {
     display: flex;
-}
+} */
 
-.form-label-footer > input {
+/* .footer-form-label > input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -912,9 +912,9 @@ inner-div svg:hover {
     line-height: 20px;
     padding-left: 71px;
     color: white;
-}
+} */
 
-.email-text-footer {
+/* .footer-email-text {
     position: absolute;
     margin: 15px 0px 15px 16px;
     z-index: 2; 
@@ -925,9 +925,9 @@ inner-div svg:hover {
     align-items: center;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
-.footer-form-button {
+/* .footer-form-button {
     width: 200px;
     height: 50px;
     background: #2196F3;
@@ -945,5 +945,5 @@ inner-div svg:hover {
     margin: 0px 215px 0px 12px;
     padding: 0px;
     border: 0px;
-}
+} */
 
