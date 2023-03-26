@@ -2,5 +2,24 @@ html {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    gap: 10px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.section {
+    padding-top: 94px;
+}
+
+* {
+    margin-block-start: auto;
+    margin-block-end: auto;
+    padding-inline-start: 0px;
 }
