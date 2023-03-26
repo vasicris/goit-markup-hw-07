@@ -1,0 +1,36 @@
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 94px;
+}
+
+.section-three {
+    &-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #212121;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    &-what-we-do {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    &-what-we-do__title {
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        background: rgba(47, 48, 58, 0.8);
+        color: white;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+    }
+}
