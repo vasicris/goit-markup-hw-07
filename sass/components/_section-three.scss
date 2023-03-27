@@ -5,22 +5,18 @@
     padding-bottom: 94px;
 }
 
-.section-three {
-    &-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        letter-spacing: 0.03em;
-        color: #212121;
+.section-three__title {
         padding-bottom: 50px;
         display: flex;
         justify-content: center;
-    }
-    &-what-we-do {
+}
+
+.grid {
+    &__items-what-we-do {
         display: flex;
         flex-direction: column-reverse;
     }
-    &-what-we-do__title {
+    &__items-what-we-do-title {
         position: absolute;
         width: 370px;
         height: 70px;

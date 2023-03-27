@@ -6,7 +6,7 @@
 }
 
 .section-one {
-    &-title {
+    &__title {
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
@@ -20,24 +20,23 @@
         margin-inline-end: auto;
         padding-top: 200px;
     }
-}
-
-.head-button {
-    height: 50px;
-    background:  #2196F3;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    border: none;
-    padding: 0px 20px;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    justify-content: center;
-    align-items: center;
+    &__button {
+        height: 50px;
+        background:  #2196F3;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        border: none;
+        padding: 0px 20px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        justify-content: center;
+        align-items: center;
+    }
 }

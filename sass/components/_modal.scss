@@ -16,7 +16,7 @@
 }
 
 .modal {
-    &-inner-div {
+    &__inner-div {
         width: 528px;
         height: 581px;
         left: 536px;
@@ -26,7 +26,7 @@
         border-radius: 4px;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-inner-div > button {
+    &__inner-div > button {
         left: 490px;
         top: 8px;
         position: relative;
@@ -37,27 +37,21 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
     }
-    &-inner-div svg:hover {
+    &__inner-div svg:hover {
         color: #2196F3;
         cursor: pointer;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-icon > use:hover {
+    &__icon > use:hover {
         fill: #2196F3;
         cursor: pointer;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-form {
+    &__form {
         flex-direction: column;
         margin: 2px 41px 40px 39px;
     }
-    &-icon-form {
-        fill: #212121;
-        padding-top: 30px;
-        padding-left: 12px;
-        position: absolute;
-    }
-    &-form-title {
+    &__form-title {
         margin: 2px 0px 12px;
         font-weight: 700;
         font-size: 20px;
@@ -66,20 +60,11 @@
         letter-spacing: 0.03em;
         color: #212121;
     }
-    &-request-form {
+    &__request-form {
         display: flex;
         flex-direction: column;
     }
-    &-form-label {
-        display: flex;
-        flex-direction: column;
-        padding: 0px 0px 10px;
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 0.01em;
-        color: #757575;
-    }
-    &-form-label {
+    &__form-label {
         display: flex;
         flex-direction: column;
         padding: 0px 0px 10px;
@@ -88,10 +73,25 @@
         letter-spacing: 0.01em;
         color: #757575;
     }
-    &-form-label > input {
+    &__icon-form {
+        fill: #212121;
+        padding-top: 30px;
+        padding-left: 12px;
+        position: absolute;
+    }
+    &__form-label {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 10px;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: #757575;
+    }
+    &__form-label > input {
         padding-left: 40px;
     }
-    &-form-label > input {
+    &__form-label > input {
         margin: 4px 0px 0px;
         font-weight: 400;
         box-sizing: border-box;
@@ -103,7 +103,7 @@
         border-radius: 4px;
         outline: none;
     }
-    &-form-label > input:focus {
+    &__form-label > input:focus {
         border: 1px solid #2196F3;
         border-radius: 4px;
         cursor: pointer;
@@ -111,29 +111,29 @@
         fill: #2196F3;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-request-form input[type="email"]:focus+.modal-icon-form {
+    &__request-form input[type="email"]:focus+.modal__icon-form {
         fill: #2196F3;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-request-form input[type="tel"]:focus+.modal-icon-form {
+    &__request-form input[type="tel"]:focus+.modal__icon-form {
         fill: #2196F3;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-request-form input[type="name"]:focus+.modal-icon-form {
+    &__request-form input[type="name"]:focus+.modal__icon-form {
         fill: #2196F3;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-form-label > textarea:focus {
+    &__form-label > textarea:focus {
         border: 1px solid #2196F3;
         border-radius: 4px;
         cursor: pointer;
         outline: none;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-form-label > textarea:focus-visible {
+    &__form-label > textarea:focus-visible {
         outline: none;
     }
-    &-form-label > textarea {
+    &__form-label > textarea {
         box-sizing: border-box;
         height: 120px;
         border: 1px solid rgba(33, 33, 33, 0.2);
@@ -141,7 +141,7 @@
         margin: 4px 0px 0px;
         padding: 12px 16px;
     }
-    &-checkbox {
+    &__checkbox {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -150,7 +150,7 @@
         margin: 10px 11px 30px 13px;
         display: flex;
     }
-    &-replace-checkbox {
+    &__replace-checkbox {
         width: 12px;
         height: 12px;
         border: 2px solid black;
@@ -159,20 +159,20 @@
         margin-right: 7px;
         margin-bottom: 5px;
     }
-    &-checkbox svg {
+    &__checkbox svg {
         width: 12px;
         height: 12px;
         fill: white;
         padding-bottom: 4px;
     }
-    &-request-form input[type="checkbox"]:checked+.modal-replace-checkbox {
+    &__request-form input[type="checkbox"]:checked+.modal__replace-checkbox {
         background: #2196F3;
         border-color: #2196F3;
     }
-    &-request-form input[type="checkbox"] {
+    &__request-form input[type="checkbox"] {
         display: none;
     }
-    &-terms-and-cond {
+    &__terms-and-cond {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -181,7 +181,7 @@
         padding-left: 4px;
         text-decoration: underline;
     }
-    &-send-button-form {
+    &__send-button-form {
         font-weight: 700;
         font-size: 16px;
         letter-spacing: 0.06em;
@@ -195,14 +195,14 @@
         margin: 0px 124px 0px 124px;
         border: none;
     }
-    &-send-button-form:hover {
+    &__send-button-form:hover {
         background: #188CE8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         cursor: pointer;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &-send-button-form:focus {
+    &__send-button-form:focus {
         outline: none;
     }
 }
